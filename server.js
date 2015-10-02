@@ -1,7 +1,8 @@
 'use strict';
 
 var express = require('express'),
-    app = express();
+  app = express(),
+  port = process.env.PORT || 80;
 
 app.use(express.static('web'));
 
@@ -9,4 +10,5 @@ app.use(express.static('web'));
 //  res.send('ha');
 // })
 
-app.listen(3000);
+console.log(port);
+app.listen(port);
