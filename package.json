@@ -1,0 +1,10 @@
+{
+    "name": "Portfolio",
+	"version": "1.0.0",
+	"engines": {
+		"node": "4.1.x"
+	},
+	"dependencies": {
+		"express": "4.13.x"
+ 	}
+}
