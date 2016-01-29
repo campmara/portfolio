@@ -10,20 +10,20 @@ angular.module('myApp', [
 	.config(['$routeProvider', function($routeProvider) {
 
 		$routeProvider
-            .when('/', {
-                templateUrl : '/index.html',
+            .when('/index.html', {
+                templateUrl : '/',
                 controller : mainController
             })
-            .when('/games', {
-                templateUrl : '/games.html',
+            .when('/games,html', {
+                templateUrl : '/games',
                 controller : mainController
             })
-            .when('/music', {
-                templateUrl : '/music.html',
+            .when('/music.html', {
+                templateUrl : '/music',
                 controller : mainController
             });
-            .when('/writing', {
-                templateUrl : '/writing.html',
+            .when('/writing.html', {
+                templateUrl : '/writing',
                 controller : mainController
             });
             .otherwise({redirectTo: '/view1'});
