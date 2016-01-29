@@ -6,7 +6,7 @@ var express = require('express'),
 
 var cleanUrls = require('clean-urls');
 
-app.use(cleanUrls(['/web/**']));
+app.use(cleanUrls(['/web/index.html']));
 //app.use(express.static('web'));
 
 console.log(port);
