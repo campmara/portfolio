@@ -4,11 +4,10 @@ var express = require('express'),
   app = express(),
   port = process.env.PORT || 80;
 
-app.use(express.static('web'));
+var cleanUrls = require('clean-urls');
 
-// app.get('/', function(req, res) {
-//  res.send('ha');
-// })
+app.use(cleanUrls(['/web/**']));
+//app.use(express.static('web'));
 
 console.log(port);
 app.listen(port);

@@ -1,10 +1,11 @@
 {
-    "name": "Portfolio",
-	"version": "1.0.0",
-	"engines": {
-		"node": "4.1.x"
-	},
-	"dependencies": {
-		"express": "4.13.x"
- 	}
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "engines": {
+    "node": "4.1.x"
+  },
+  "dependencies": {
+    "clean-urls": "^1.1.5",
+    "express": "4.13.x"
+  }
 }
