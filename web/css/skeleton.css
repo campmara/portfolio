@@ -544,6 +544,7 @@ dd {
 .textlogo {
   text-align: center;
   font-size: 300%;
+  white-space: nowrap;
 }
 
 .textlogo a {
