@@ -542,8 +542,10 @@ dd {
 }
 
 .textlogo {
+  max-width: 100%;
   text-align: center;
-  font-size: 6vw;
+  font-size: 300%;
+  white-space: nowrap;
 }
 
 .textlogo a {
