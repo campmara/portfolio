@@ -629,7 +629,7 @@ h1 {
 }
 
 audio {
-  width: 550px;
+  width: 100%;
   display: table;
   margin: 0 auto;
 }
