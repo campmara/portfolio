@@ -516,13 +516,6 @@ there.
   background-color: rgb(0, 152, 182);
 }
 
-.about {
-  background-color: white;
-  padding: 20px;
-  border-radius: 3px;
-  margin-bottom: 15px;
-}
-
 li {
   list-style: none outside;
 }
@@ -602,6 +595,13 @@ h1 {
   display: none;
 }
 
+.about {
+  background-color: white;
+  padding: 20px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
 .about p {
   margin-bottom: 0.3em;
   color: black;
@@ -610,3 +610,52 @@ h1 {
 .about p:last-child {
   margin-bottom: 0;
 }
+
+.songblock {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0px 5px rgba(255, 255, 255, .7);
+}
+
+.songblock p {
+  margin-bottom: 0.3em;
+  color: black;
+  text-align: center;
+}
+
+.songblock p:last-child {
+  margin-bottom: 0;
+}
+
+audio {
+  width: 550px;
+  display: table;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
