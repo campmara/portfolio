@@ -122,13 +122,13 @@ html {
   font-size: 62.5%;
   /*background-color: #2C3E50; }*/
   /*background-color: #2D3E50; }*/
-  background-color: #ECF0F1; }
+  background-color: #1A1F2B; }
 body {
   font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
   font-family: "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #fff; }
+  color: #D0E4F2; }
 
 
 /* Typography
@@ -432,7 +432,7 @@ there.
   /*line-height: 365px;*/
   line-height: 265px;
   /*border-bottom: 30px solid rgb(41, 128, 185);*/
-  border-bottom: 30px solid rgb(44, 62, 80);
+  border-bottom: 30px solid rgb(74, 100, 145);
   font-weight: bold;
   text-align: center;
   color: white;
@@ -451,7 +451,7 @@ there.
 
 .contentarea:hover {
   /*border-bottom-color: rgb(52, 152, 219);*/
-  border-bottom-color: rgb(53, 75, 97);
+  border-bottom-color: rgb(133, 165, 204);
   color: white;
   box-shadow: 0px 3px 12px -3px rgba(22, 21, 37, .6);
 }
@@ -539,7 +539,7 @@ dd {
 
 .intro a {
   text-decoration: none;
-  color: #FF5471;
+  color: #4A6491;
 }
 
 .textlogo {
@@ -549,10 +549,11 @@ dd {
 
 .textlogo a {
   text-decoration: none;
-  color: white;
-  text-shadow: 0 1px 0 #ccc,
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
+  /*color: white;*/
+  color: #D0E4F2;
+  text-shadow: 0 1px 0 #AFC0CC,
+               0 2px 0 #A0AFBA,
+               0 3px 0 #8C9AA3,
                0 6px 1px rgba(0,0,0,.1),
                0 0 5px rgba(0,0,0,.1),
                0 1px 3px rgba(0,0,0,.3),
@@ -563,9 +564,11 @@ dd {
 }
 
 .pagetitle {
+  color: #D0E4F2;
   text-align: center;
   font-size: 200%;
-  text-shadow: 0 2px 0 rgba(255, 255, 255, 0.4);
+  /*text-shadow: 0 2px 0 rgba(255, 255, 255, 0.4);*/
+  text-shadow: 0 2px 0 #85A5CC;
 }
 
 /* original:
