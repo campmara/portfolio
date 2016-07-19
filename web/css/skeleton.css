@@ -453,7 +453,6 @@ there.
 
 .contentarea:hover {
   /*border-bottom-color: rgb(52, 152, 219);*/
-  border-color: rgb(230, 230, 230);
   border-bottom-color: rgb(230, 230, 230);
   color: white;
   box-shadow: 0px 3px 12px -3px rgba(22, 21, 37, .6);
