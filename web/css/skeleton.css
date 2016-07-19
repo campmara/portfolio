@@ -430,12 +430,12 @@ there.
   text-decoration: none;
   display: block;
   /*line-height: 365px;*/
-  line-height: 265px;
+  line-height: 270px;
   /*border-bottom: 30px solid rgb(41, 128, 185);*/
   /*border-bottom: 30px solid rgb(74, 100, 145);*/
   border-bottom: 30px solid white;
   text-align: center;
-  color: white;
+  color: black;
   transition: border-bottom-color .1s ease-in;
   margin-bottom: 15px;
   background-position: 50%;
@@ -451,7 +451,7 @@ there.
 .contentarea:hover {
   /*border-bottom-color: rgb(52, 152, 219);*/
   border-bottom-color: rgb(230, 230, 230);
-  color: white;
+  color: black;
   /*box-shadow: 0px 3px 12px -3px rgba(22, 21, 37, .6);*/
 }
 
