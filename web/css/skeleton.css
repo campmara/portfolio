@@ -122,13 +122,13 @@ html {
   font-size: 62.5%;
   /*background-color: #2C3E50; }*/
   /*background-color: #2D3E50; }*/
-  background-color: #1A1F2B; }
+  background-color: #FFFFFF; }
 body {
   font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #D0E4F2; }
+  color: #FFFFFF; }
 
 
 /* Typography
@@ -432,7 +432,9 @@ there.
   /*line-height: 365px;*/
   line-height: 265px;
   /*border-bottom: 30px solid rgb(41, 128, 185);*/
-  border-bottom: 30px solid rgb(74, 100, 145);
+  /*border-bottom: 30px solid rgb(74, 100, 145);*/
+  border: 1px solid black;
+  border-bottom: 30px solid black;
   font-weight: bold;
   text-align: center;
   color: white;
@@ -451,7 +453,8 @@ there.
 
 .contentarea:hover {
   /*border-bottom-color: rgb(52, 152, 219);*/
-  border-bottom-color: rgb(133, 165, 204);
+  border-color: rgb(230, 230, 230);
+  border-bottom-color: rgb(230, 230, 230);
   color: white;
   box-shadow: 0px 3px 12px -3px rgba(22, 21, 37, .6);
 }
@@ -550,10 +553,10 @@ dd {
 .textlogo a {
   text-decoration: none;
   /*color: white;*/
-  color: #D0E4F2;
-  text-shadow: 0 1px 0 #AFC0CC,
-               0 2px 0 #A0AFBA,
-               0 3px 0 #8C9AA3,
+  color: #000000;
+  text-shadow: 0 1px 0 #303030,
+               0 2px 0 #565656,
+               0 3px 0 #848484,
                0 6px 1px rgba(0,0,0,.1),
                0 0 5px rgba(0,0,0,.1),
                0 1px 3px rgba(0,0,0,.3),
