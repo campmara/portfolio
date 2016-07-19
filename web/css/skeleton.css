@@ -161,9 +161,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #848484; }
 a:hover {
-  color: #0FA0CE; }
+  color: #A5A5A5; }
 
 
 /* Buttons
@@ -548,7 +548,17 @@ dd {
 
 .textlogo a {
   text-decoration: none;
-  /*color: white;*/
+  color: #000000;
+}
+
+/*
+.textlogo {
+  text-align: center;
+  font-size: 225%;
+}
+
+.textlogo a {
+  text-decoration: none;
   color: #000000;
   text-shadow: 0 1px 0 #303030,
                0 2px 0 #565656,
@@ -561,6 +571,7 @@ dd {
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
 }
+*/
 
 .pagetitle {
   color: #D0E4F2;
