@@ -127,7 +127,7 @@ body {
   font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu", "Raleway", "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #FFFFFF; }
 
 
@@ -538,7 +538,7 @@ dd {
 
 .intro a {
   text-decoration: none;
-  color: #4A6491;
+  color: #848484;
 }
 
 .textlogo {
