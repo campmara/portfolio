@@ -127,8 +127,8 @@ body {
   font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Cutive Mono", "Alegreya Sans", "Ubuntu", "Raleway", "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif, monospace;
-  color: #FFFFFF; }
+  font-family: "Lato", "Nunito", "Cutive Mono", "Alegreya Sans", "Ubuntu", "Raleway", "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif, monospace;
+  color: #000000; }
 
 
 /* Typography
@@ -439,6 +439,7 @@ there.
   transition: border-bottom-color .1s ease-in;
   margin-bottom: 15px;
   background-position: 50%;
+  /*background-size: 100%;*/
   box-shadow: 0px 3px 12px -3px rgba(22, 21, 37, .6);;
 }
 
@@ -575,7 +576,7 @@ dd {
 
 .textlogo a {
   text-decoration: none;
-  color: #000000;
+  color: #999999;
 }
 
 /*
