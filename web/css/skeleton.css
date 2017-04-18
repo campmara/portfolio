@@ -122,12 +122,13 @@ html {
   font-size: 62.5%;
   /*background-color: #2C3E50; }*/
   /*background-color: #2D3E50; }*/
-  background-color: #FFFFFF; }
+  background-color: #F5F5F5; }
 body {
   font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Lato", "Nunito", "Cutive Mono", "Alegreya Sans", "Ubuntu", "Raleway", "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif, monospace;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Concert One', cursive;
   color: #000000; }
 
 
@@ -423,24 +424,33 @@ there.
 /* User-defined classes. */
 
 .contentarea {
-  /*border-radius: 1px;*/
+  border-radius: 15px;
   height: 150px;
-  /*background-size: cover;*/
-  background-repeat: no-repeat;
+  
   text-decoration: none;
+
   display: block;
   /*line-height: 365px;*/
   line-height: 270px;
+
   /*border-bottom: 30px solid rgb(41, 128, 185);*/
   /*border-bottom: 30px solid rgb(74, 100, 145);*/
-  border-bottom: 30px solid white;
+  border-bottom: 30px solid #FF5B46;
+
   text-align: center;
-  color: black;
+  color: white;
   transition: border-bottom-color .1s ease-in;
   margin-bottom: 15px;
+
   background-position: 50%;
-  /*background-size: 100%;*/
-  box-shadow: 0px 3px 12px -3px rgba(22, 21, 37, .6);;
+  /*background-size: cover;*/
+  background-repeat: no-repeat;
+
+  box-shadow: 0px 3px 12px -3px rgba(22, 21, 37, .6);
+
+  font-size:90%;
+  font-family: sans-serif;
+  font-weight: lighter;
 }
 
 .single-post .contentarea {
@@ -450,14 +460,13 @@ there.
 }
 
 .contentarea:hover {
-  /*border-bottom-color: rgb(52, 152, 219);*/
-  border-bottom-color: rgb(230, 230, 230);
-  color: black;
+  border-bottom-color: #FF8373;
+  color: white;
   /*box-shadow: 0px 3px 12px -3px rgba(22, 21, 37, .6);*/
 }
 
 .smallcontentarea {
-  /*border-radius: 1px;*/
+  border-radius: 15px;
   height: 0px;
   /*background-size: cover;*/
   background-repeat: no-repeat;
@@ -467,19 +476,22 @@ there.
   line-height: 30px;
   /*border-bottom: 30px solid rgb(41, 128, 185);*/
   /*border-bottom: 30px solid rgb(74, 100, 145);*/
-  border-bottom: 30px solid white;
+  border-bottom: 30px solid #FF5B46;
   text-align: center;
-  color: black;
+  color: white;
   transition: border-bottom-color .1s ease-in;
   margin-bottom: 15px;
   background-position: 50%;
-  box-shadow: 0px 3px 12px -3px rgba(22, 21, 37, .6);;
+  box-shadow: 0px 3px 12px -3px rgba(22, 21, 37, .6);
+
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size:90%;
 }
 
 .smallcontentarea:hover {
-  /*border-bottom-color: rgb(52, 152, 219);*/
-  border-bottom-color: rgb(230, 230, 230);
-  color: black;
+  border-bottom-color: #FF8373;
+  color: white;
   /*box-shadow: 0px 3px 12px -3px rgba(22, 21, 37, .6);*/
 }
 
@@ -561,22 +573,26 @@ dd {
 
 .intro {
   text-align: center;
-  font-size: 85%;
+  font-size: 90%;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: #696969;
 }
 
 .intro a {
   text-decoration: none;
-  color: #848484;
+  color: #FF5B46;
 }
 
 .textlogo {
   text-align: center;
-  font-size: 225%;
+  font-size: 300%;
+  font-family: "Concert One";
 }
 
 .textlogo a {
   text-decoration: none;
-  color: #999999;
+  color: #696969;
 }
 
 /*
