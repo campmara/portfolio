@@ -426,10 +426,10 @@ there.
 .contentarea {
   border-radius: 2vmin;
 
-  height: 21.5vmin;
-  line-height: 39vmin;
-  border-bottom: 4vmin solid #FF5B46;
-  font-size:2.5vmin;
+  height: 25vmin;
+  line-height: 43vmin;
+  border-bottom: 7vmin solid #FF5B46;
+  font-size:3vmin;
   
   text-decoration: none;
 
@@ -471,9 +471,9 @@ there.
   display: block;
   /*line-height: 365px;*/
 
-  border-bottom: /*30px*/ 4.5vmin solid #FF5B46;
-  line-height: 4vmin;
-  font-size:2.5vmin;
+  border-bottom: /*30px*/ 7vmin solid #FF5B46;
+  line-height: 7vmin;
+  font-size:3vmin;
   
   text-align: center;
   color: white;
@@ -570,7 +570,7 @@ dd {
 
 .intro {
   text-align: center;
-  font-size: 2.5vmin;
+  font-size: 3vmin;
   font-weight: lighter;
   font-family: sans-serif;
   color: #696969;
