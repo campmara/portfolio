@@ -429,7 +429,7 @@ there.
   height: 25vmin;
   line-height: 43vmin;
   border-bottom: 7vmin solid #FF5B46;
-  font-size:3vmin;
+  font-size:4vmin;
   
   text-decoration: none;
 
@@ -473,7 +473,7 @@ there.
 
   border-bottom: /*30px*/ 7vmin solid #FF5B46;
   line-height: 7vmin;
-  font-size:3vmin;
+  font-size:4vmin;
   
   text-align: center;
   color: white;
@@ -570,7 +570,7 @@ dd {
 
 .intro {
   text-align: center;
-  font-size: 3vmin;
+  font-size: 4vmin;
   font-weight: lighter;
   font-family: sans-serif;
   color: #696969;
