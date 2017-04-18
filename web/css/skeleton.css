@@ -424,18 +424,16 @@ there.
 /* User-defined classes. */
 
 .contentarea {
-  border-radius: 15px;
-  height: 150px;
+  border-radius: 2vmin;
+
+  height: 21.5vmin;
+  line-height: 39vmin;
+  border-bottom: 4vmin solid #FF5B46;
+  font-size:2.5vmin;
   
   text-decoration: none;
 
   display: block;
-  /*line-height: 365px;*/
-  line-height: 270px;
-
-  /*border-bottom: 30px solid rgb(41, 128, 185);*/
-  /*border-bottom: 30px solid rgb(74, 100, 145);*/
-  border-bottom: 30px solid #FF5B46;
 
   text-align: center;
   color: white;
@@ -448,7 +446,6 @@ there.
 
   box-shadow: 0px 3px 12px -3px rgba(22, 21, 37, .6);
 
-  font-size:90%;
   font-family: sans-serif;
   font-weight: lighter;
 }
@@ -466,16 +463,18 @@ there.
 }
 
 .smallcontentarea {
-  border-radius: 15px;
+  border-radius: 2vmin;
   height: 0px;
   /*background-size: cover;*/
   background-repeat: no-repeat;
   text-decoration: none;
   display: block;
   /*line-height: 365px;*/
-  line-height: 30px;
 
-  border-bottom: 30px solid #FF5B46;
+  border-bottom: /*30px*/ 4.5vmin solid #FF5B46;
+  line-height: 4vmin;
+  font-size:2.5vmin;
+  
   text-align: center;
   color: white;
   transition: border-bottom-color .1s ease-in;
@@ -485,7 +484,6 @@ there.
 
   font-family: sans-serif;
   font-weight: lighter;
-  font-size:90%;
 }
 
 .smallcontentarea:hover {
@@ -572,7 +570,7 @@ dd {
 
 .intro {
   text-align: center;
-  font-size: 90%;
+  font-size: 2.5vmin;
   font-weight: lighter;
   font-family: sans-serif;
   color: #696969;
@@ -585,7 +583,7 @@ dd {
 
 .textlogo {
   text-align: center;
-  font-size: 300%;
+  font-size: 10vmin;
   font-family: "Concert One";
 }
 
