@@ -421,7 +421,8 @@ there.
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
-/* User-defined classes. */
+/* User-Defined Classes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .contentarea {
   border-radius: 2vmin;
