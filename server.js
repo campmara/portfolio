@@ -2,10 +2,11 @@
 
 var express = require('express'),
   app = express(),
-  port = process.env.PORT || 80;
+  port = process.env.port || 3000;
 
 app.use(express.static('web'));
 
+/*
 app.get('/games', function(req,res){
  res.sendfile(__dirname + '/web/games.html');
 }); 
@@ -17,6 +18,7 @@ app.get('/music', function(req,res){
 app.get('/writing', function(req,res){
  res.sendfile(__dirname + '/web/writing.html');
 }); 
+*/
 
 console.log(port);
 app.listen(port);

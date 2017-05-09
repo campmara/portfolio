@@ -2,9 +2,9 @@
   "name": "Portfolio",
   "version": "1.0.0",
   "engines": {
-    "node": "4.1.x"
+    "node": "7.10.x"
   },
   "dependencies": {
-    "express": "4.13.x"
+    "express": "4.15.x"
   }
 }
