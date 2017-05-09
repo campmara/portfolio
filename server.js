@@ -1,10 +1,14 @@
 'use strict';
 
-var express = require('express'),
-  app = express(),
-  port = process.env.port || 3000;
+var express = require('express');
+var app = express();
 
+app.set('port', (process.env.port || 5000));
 app.use(express.static('web'));
+
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
+});
 
 /*
 app.get('/games', function(req,res){
@@ -19,6 +23,3 @@ app.get('/writing', function(req,res){
  res.sendfile(__dirname + '/web/writing.html');
 }); 
 */
-
-console.log(port);
-app.listen(port);

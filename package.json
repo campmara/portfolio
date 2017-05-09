@@ -6,5 +6,10 @@
   },
   "dependencies": {
     "express": "4.15.x"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MurrayIRC/portfolio.git"
+  },
+  "license": "UNLICENSED"
 }
