@@ -430,7 +430,6 @@ there.
   height: 25vmin;
   line-height: 43vmin;
   border-bottom: 7vmin solid #FF5B46;
-  font-size:4vmin;
   
   text-decoration: none;
 
@@ -449,6 +448,7 @@ there.
 
   font-family: sans-serif;
   font-weight: lighter;
+  font-size: 3.5vmin;
 }
 
 .single-post .contentarea {
