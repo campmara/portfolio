@@ -24,6 +24,8 @@ h1 {
 h2 {
     font-size: 2em;
     color: #43d490;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 h3 {
     font-size: 1.5em;
@@ -42,14 +44,20 @@ a:link {
 
 p {
     color: #7c7c7c;
+    margin-top: 0.4em;
+    margin-bottom: auto;
 }
 
 hr {
     display: block;
-    margin-top: 0.4em;
-    margin-bottom: 0.4em;
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
   }
+
+.footer {
+    padding-top: 5em;
+    padding-bottom: 1em;
+    text-align: center;
+}
