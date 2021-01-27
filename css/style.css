@@ -1,13 +1,13 @@
 html {
     font-size: 62.5%;
-    background-color: #F5F5F5; 
+    background-color: #dafae4; 
 }
 
 body {
     margin-left: 32px;
     margin-right: 32px;
     font-size: 1.75em;
-    line-height: 1.0;
+    line-height: 1.2;
     font-family: 'Rubik', sans-serif;
     font-family: 'Concert One', cursive;
     color: #000000;
@@ -15,18 +15,26 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
-    color: #e68b14;
-    text-shadow: 2px 2px #000000;
+    text-shadow: 2px 2px #0000008f;
 }
 h1 {
     font-size: 3em;
+    color: #e68b14;
+}
+h2 {
+    font-size: 2em;
+    color: #43d490;
+}
+h3 {
+    font-size: 1.5em;
+    color: #c664ec;
 }
 
 a {
-    color: #3a7794;
+    color: #61a3c2;
 }
 a:hover {
-    color: #27576d; 
+    color: #46829e; 
 }
 a:link {
     text-decoration: none;
@@ -38,8 +46,8 @@ p {
 
 hr {
     display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
